@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    
+    background-color: #02918c;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+
+}
+
+.container{
+    width: 1170px;
+    
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.row{
+    display: flex;
+    
+
+}
+
+nav .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+    font-size: 12px ;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 19px 25px;
+    display: inline-block;
+}
+
+ul li a:hover{
+    color: #cfc91d;
+
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/suit.png);
+    height: 100vh;
+    background-size: cover;
+    
+  
+}
+
+#banner .container{
+    text-align: center;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 209px;
+    padding-bottom: 133px;
+    font-size: 35px;
+    justify-content: center;
+    
+  
+    
+    
+    
+}
+.logo{
+    color: black;
+    font-weight: 800;
+    background-color: #cfc91d;
+    font-size: 20px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 32px;
+    padding-top: 22px;
+    border: 10px solid black;
+}
+
+h1{
+    font-family: 'Open Sans';
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    
+   
+}
+
+p{
+    padding-bottom: 15px;
+}
